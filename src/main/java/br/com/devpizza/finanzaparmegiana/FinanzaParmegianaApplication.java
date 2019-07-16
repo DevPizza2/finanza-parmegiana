@@ -5,9 +5,9 @@ import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FinanzaParmegianaApplication {
-    public static void main(String[] args) {
-        SpringApplication.run(FinanzaParmegianaApplication.class, args);
-    }
+    public class FinanzaParmegianaApplication {
+        public static void main(String[] args) {
+            SpringApplication.run(FinanzaParmegianaApplication.class, args);
+        }
 
 }
