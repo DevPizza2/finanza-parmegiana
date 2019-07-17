@@ -1,6 +1,8 @@
 package br.com.devpizza.finanzaparmegiana.Model;
 
 import javax.persistence.*;
+import java.util.List;
+import java.util.Set;
 
 @Entity
 @Table(name = "usuario")
@@ -11,6 +13,9 @@ public class Usuario {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     int id;
+
+    @OneToMany(mappedBy = "usuario", cascade = CascadeType.ALL)
+    Set<Despesa> despesas;
 
     public Usuario() {
     }

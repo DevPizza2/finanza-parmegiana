@@ -13,6 +13,7 @@ public class UsuarioController {//controlador de das funcoes de usuario
 
     @Autowired
     UserRepository userRepository;//cria e inicializa o acesso ao repositorio de usuarios
+
     @RequestMapping(method = RequestMethod.POST, path = "/criar")
     public ResponseEntity<?> criar(@RequestBody Usuario user){//metodo POST para criação de usuarios no bd.
         return new ResponseEntity<>(userRepository.save(user), HttpStatus.OK);
