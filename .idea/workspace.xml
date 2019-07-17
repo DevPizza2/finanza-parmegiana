@@ -2,16 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e96f6b0-400f-4313-bce1-d7bb2e9c4387" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Model/Despesa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Model/Entrada.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Model/Fixa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Model/RendaFixa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Model/RendaVariavel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Model/Usuario.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Model/Variavel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Endpointers/UsuarioController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Repositories/UserRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Endpointers/HelloWorldController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Endpointers/HelloWorldController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/finanza-parmegiana.iml" beforeDir="false" afterPath="$PROJECT_DIR$/finanza-parmegiana.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Model/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Model/Usuario.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/br/com/devpizza/finanzaparmegiana/Endpointers/HelloWorldController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/devpizza/finanzaparmegiana/Endpointers/HelloWorldController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/devpizza/finanzaparmegiana/Model/Aluno.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -25,7 +25,24 @@
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Endpointers/UsuarioController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1004#1005#0" expanded="true" />
+                <element signature="e#1090#1091#0" expanded="true" />
+                <element signature="e#1939#1940#0" expanded="true" />
+                <element signature="e#2063#2064#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -48,11 +65,17 @@
         <option value="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Model/RendaFix.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Model/RendaVariavel.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Model/Fixa.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Model/Usuario.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Model/Despesa.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Model/Entrada.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Model/RendaFixa.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Model/Variavel.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/DAO.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/UserRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Repositories/UserRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Model/Usuario.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Endpointers/UsuarioController.java" />
       </list>
     </option>
   </component>
@@ -70,54 +93,61 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="finanza-parmegiana" type="b2602c69:ProjectViewProjectNode" />
-              <item name="finanza-parmegiana" type="462c0819:PsiDirectoryNode" />
+              <item name="finanza-parmegiana-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="finanza-parmegiana-api" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="finanza-parmegiana" type="b2602c69:ProjectViewProjectNode" />
-              <item name="finanza-parmegiana" type="462c0819:PsiDirectoryNode" />
+              <item name="finanza-parmegiana-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="finanza-parmegiana-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="finanza-parmegiana" type="b2602c69:ProjectViewProjectNode" />
-              <item name="finanza-parmegiana" type="462c0819:PsiDirectoryNode" />
+              <item name="finanza-parmegiana-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="finanza-parmegiana-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="finanza-parmegiana" type="b2602c69:ProjectViewProjectNode" />
-              <item name="finanza-parmegiana" type="462c0819:PsiDirectoryNode" />
+              <item name="finanza-parmegiana-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="finanza-parmegiana-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="finanza-parmegiana" type="b2602c69:ProjectViewProjectNode" />
-              <item name="finanza-parmegiana" type="462c0819:PsiDirectoryNode" />
+              <item name="finanza-parmegiana-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="finanza-parmegiana-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="finanzaparmegiana" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="finanza-parmegiana" type="b2602c69:ProjectViewProjectNode" />
-              <item name="finanza-parmegiana" type="462c0819:PsiDirectoryNode" />
+              <item name="finanza-parmegiana-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="finanza-parmegiana-api" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="finanzaparmegiana" type="462c0819:PsiDirectoryNode" />
               <item name="Endpointers" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="finanza-parmegiana-api" type="b2602c69:ProjectViewProjectNode" />
+              <item name="finanza-parmegiana-api" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -173,12 +203,13 @@
       <workItem from="1563287454734" duration="743000" />
       <workItem from="1563295887948" duration="3180000" />
       <workItem from="1563304181606" duration="6252000" />
-      <workItem from="1563319271815" duration="715000" />
+      <workItem from="1563319271815" duration="2339000" />
+      <workItem from="1563372338093" duration="5422000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11692000" />
+    <option name="totallyTimeSpent" value="18738000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -191,8 +222,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26332623" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26599148" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -231,9 +263,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/finanza-parmegiana.iml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -295,13 +324,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Model/Usuario.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Model/Fixa.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
@@ -322,12 +344,64 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Endpointers/HelloWorldController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        <state relative-caret-position="238">
+          <caret line="14" column="36" lean-forward="true" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#595#596#0" expanded="true" />
             <element signature="e#631#632#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="578">
+          <caret line="34" selection-start-line="34" selection-end-line="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/DAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="55" selection-start-column="55" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Repositories/UserRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="74" selection-start-line="5" selection-start-column="74" selection-end-line="5" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Model/Usuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="22" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Endpointers/UsuarioController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1004#1005#0" expanded="true" />
+            <element signature="e#1090#1091#0" expanded="true" />
+            <element signature="e#1939#1940#0" expanded="true" />
+            <element signature="e#2063#2064#0" expanded="true" />
           </folding>
         </state>
       </provider>

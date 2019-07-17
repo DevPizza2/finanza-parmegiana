@@ -1,9 +1,15 @@
 package br.com.devpizza.finanzaparmegiana.Model;
 
+import javax.persistence.*;
+
+@Entity
+@Table(name = "usuario")
 public class Usuario {
     String nome;
     int idade;
     String email;
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     int id;
 
     public Usuario() {
@@ -14,6 +20,12 @@ public class Usuario {
         this.idade = idade;
         this.email = email;
         this.id = id;
+    }
+
+    public Usuario(String nome, int idade, String email) {
+        this.nome = nome;
+        this.idade = idade;
+        this.email = email;
     }
 
     public String getNome() {
@@ -46,5 +58,15 @@ public class Usuario {
 
     public void setId(int id) {
         this.id = id;
+    }
+
+    @Override
+    public String toString() {
+        return "Usuario{" +
+                "nome='" + nome + '\'' +
+                ", idade=" + idade +
+                ", email='" + email + '\'' +
+                ", id=" + id +
+                '}';
     }
 }
