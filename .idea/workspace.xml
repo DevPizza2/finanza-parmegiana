@@ -2,24 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3e96f6b0-400f-4313-bce1-d7bb2e9c4387" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Endpointers/DespesaController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Repositories/DespesaRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Endpointers/EntradaContoller.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Repositories/EntradaRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BD.sql" beforeDir="false" afterPath="$PROJECT_DIR$/BD.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Endpointers/UsuarioController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Endpointers/UsuarioController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Model/Despesa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Model/Despesa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Model/Fixa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Model/RendaFixa.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Model/RendaVariavel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Model/Usuario.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Model/Usuario.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Model/Variavel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/devpizza/finanzaparmegiana/Endpointers/UsuarioController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/devpizza/finanzaparmegiana/Endpointers/UsuarioController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/devpizza/finanzaparmegiana/Model/Despesa.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/devpizza/finanzaparmegiana/Model/Despesa.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/devpizza/finanzaparmegiana/Model/Fixa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/devpizza/finanzaparmegiana/Model/RendaFixa.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/devpizza/finanzaparmegiana/Model/RendaVariavel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/devpizza/finanzaparmegiana/Model/Usuario.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/br/com/devpizza/finanzaparmegiana/Model/Usuario.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/br/com/devpizza/finanzaparmegiana/Model/Variavel.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Model/Entrada.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Model/Entrada.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -34,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Endpointers/DespesaController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="27" column="65" lean-forward="true" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
+            <state relative-caret-position="323">
+              <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -46,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Repositories/DespesaRepository.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Endpointers/EntradaContoller.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+            <state relative-caret-position="374">
+              <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -86,7 +73,6 @@
         <option value="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Model/RendaFix.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Model/RendaVariavel.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Model/Fixa.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Model/Entrada.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Model/RendaFixa.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/DAO.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -99,6 +85,9 @@
         <option value="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Model/Despesa.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Repositories/DespesaRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Endpointers/DespesaController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Model/Entrada.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Repositories/EntradaRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Endpointers/EntradaContoller.java" />
       </list>
     </option>
   </component>
@@ -116,7 +105,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -189,6 +177,7 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -246,12 +235,14 @@
       <workItem from="1563304181606" duration="6252000" />
       <workItem from="1563319271815" duration="2339000" />
       <workItem from="1563372338093" duration="7651000" />
-      <workItem from="1563388561944" duration="8411000" />
+      <workItem from="1563388561944" duration="9190000" />
+      <workItem from="1563461916988" duration="1151000" />
+      <workItem from="1563470716024" duration="931000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29378000" />
+    <option name="totallyTimeSpent" value="32239000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -266,7 +257,7 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26865673" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2739872" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -332,13 +323,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Model/RendaFixa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Model/RendaFixa.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Endpointers/HelloWorldController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -359,20 +344,7 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/DAO.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="55" selection-start-column="55" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Model/Fixa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Model/Fixa.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Repositories/UserRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -383,24 +355,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Model/Entrada.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="22" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="22" />
-          <folding>
-            <element signature="e#551#552#0" expanded="true" />
-            <element signature="e#583#584#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Model/Variavel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="20" selection-start-line="5" selection-start-column="20" selection-end-line="5" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Model/Variavel.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-autoconfigure/2.1.6.RELEASE/spring-boot-autoconfigure-2.1.6.RELEASE.jar!/org/springframework/boot/autoconfigure/orm/jpa/JpaBaseConfiguration.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -408,36 +363,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Endpointers/UsuarioController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="21" column="43" lean-forward="true" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Model/RendaVariavel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="42" selection-start-line="2" selection-start-column="42" selection-end-line="2" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Model/Despesa.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="5" selection-start-line="29" selection-start-column="5" selection-end-line="29" selection-end-column="5" />
-          <folding>
-            <element signature="e#1101#1102#0" expanded="true" />
-            <element signature="e#1131#1132#0" expanded="true" />
-            <element signature="e#1178#1179#0" expanded="true" />
-            <element signature="e#1216#1217#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Model/RendaVariavel.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Model/Usuario.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -448,10 +374,77 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Endpointers/UsuarioController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="21" column="43" selection-start-line="21" selection-start-column="43" selection-end-line="21" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Model/Entrada.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+            <element signature="e#456#457#0" expanded="true" />
+            <element signature="e#490#491#0" expanded="true" />
+            <element signature="e#521#522#0" expanded="true" />
+            <element signature="e#548#549#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#620#621#0" expanded="true" />
+            <element signature="e#656#657#0" expanded="true" />
+            <element signature="e#688#689#0" expanded="true" />
+            <element signature="e#738#739#0" expanded="true" />
+            <element signature="e#780#781#0" expanded="true" />
+            <element signature="e#811#812#0" expanded="true" />
+            <element signature="e#841#842#0" expanded="true" />
+            <element signature="e#884#885#0" expanded="true" />
+            <element signature="e#922#923#0" expanded="true" />
+            <element signature="e#948#949#0" expanded="true" />
+            <element signature="e#973#974#0" expanded="true" />
+            <element signature="e#1006#1007#0" expanded="true" />
+            <element signature="e#1034#1035#0" expanded="true" />
+            <element signature="e#1069#1070#0" expanded="true" />
+            <element signature="e#1099#1100#0" expanded="true" />
+            <element signature="e#1146#1147#0" expanded="true" />
+            <element signature="e#1184#1185#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Model/Despesa.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="11" lean-forward="true" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Repositories/DespesaRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
-          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
+          <caret line="8" column="4" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="50" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Repositories/EntradaRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="50" selection-start-line="9" selection-start-column="50" selection-end-line="9" selection-end-column="50" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -460,8 +453,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Endpointers/DespesaController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="65" lean-forward="true" selection-start-line="27" selection-start-column="65" selection-end-line="27" selection-end-column="65" />
+        <state relative-caret-position="323">
+          <caret line="19" column="5" lean-forward="true" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/devpizza/finanzaparmegiana/Endpointers/EntradaContoller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="15" selection-start-line="22" selection-start-column="15" selection-end-line="22" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
